@@ -1,0 +1,16 @@
+/home/alex/Documents/MainSys/src/BookReviews.Application/bin/Debug/net9.0/BookReviews.Application.deps.json
+/home/alex/Documents/MainSys/src/BookReviews.Application/bin/Debug/net9.0/BookReviews.Application.dll
+/home/alex/Documents/MainSys/src/BookReviews.Application/bin/Debug/net9.0/BookReviews.Application.pdb
+/home/alex/Documents/MainSys/src/BookReviews.Application/bin/Debug/net9.0/BookReviews.Domain.dll
+/home/alex/Documents/MainSys/src/BookReviews.Application/bin/Debug/net9.0/BookReviews.Domain.pdb
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/BookReviews.Application.csproj.AssemblyReference.cache
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/BookReviews.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/BookReviews.Application.AssemblyInfoInputs.cache
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/BookReviews.Application.AssemblyInfo.cs
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/BookReviews.Application.csproj.CoreCompileInputs.cache
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/BookReviews.Application.sourcelink.json
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/BookRevi.A2EA885D.Up2Date
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/BookReviews.Application.dll
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/refint/BookReviews.Application.dll
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/BookReviews.Application.pdb
+/home/alex/Documents/MainSys/src/BookReviews.Application/obj/Debug/net9.0/ref/BookReviews.Application.dll

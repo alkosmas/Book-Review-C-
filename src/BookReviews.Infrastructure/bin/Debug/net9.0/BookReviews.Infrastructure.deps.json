@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BookReviews.Infrastructure/1.0.0": {
+        "dependencies": {
+          "BookReviews.Application": "1.0.0",
+          "BookReviews.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BookReviews.Infrastructure.dll": {}
+        }
+      },
+      "BookReviews.Application/1.0.0": {
+        "dependencies": {
+          "BookReviews.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BookReviews.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BookReviews.Domain/1.0.0": {
+        "runtime": {
+          "BookReviews.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookReviews.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookReviews.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookReviews.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
