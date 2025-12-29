@@ -1,0 +1,18 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Build
+bin/
+obj/
+*.dll
+
+
+#Secret
+src/BookReviews.API/appsettings.Development.json
+.env
+
+# Logs
+logs/
+*.log

@@ -1,0 +1,11 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Port=5432;Database=BookReviewsDb;Username=postgres;Password=YOUR_PASSWORD_HERE"
+  },
+  "JwtSettings": {
+    "SecretKey": "YOUR_SECRET_KEY_HERE_MIN_32_CHARACTERS",
+    "Issuer": "BookReviewsAPI",
+    "Audience": "BookReviewsClient",
+    "ExpirationInMinutes": 60
+  }
+}

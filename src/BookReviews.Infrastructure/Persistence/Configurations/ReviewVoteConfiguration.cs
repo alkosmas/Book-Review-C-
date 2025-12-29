@@ -15,6 +15,8 @@ namespace BookReviews.Infrastructure.Persistence.Configurations
                 .WithMany()
                 .HasForeignKey(x => x.UserId);
             
+            builder.Ignore(x => x.User);
+
             builder.HasOne(x => x.Review)
                 .WithMany(x => x.ReviewVotes)
                 .HasForeignKey(x => x.ReviewId)

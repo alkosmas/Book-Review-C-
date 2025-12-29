@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using BookReviews.Domain.Entities;
 using BookReviews.Infrastructure.Identity;
 
-namespace BookReviews.Infrastructures
+namespace BookReviews.Infrastructure.Persistence 
 {
     public class AppDbContext : IdentityDbContext<ApplicationUser>
     {    
