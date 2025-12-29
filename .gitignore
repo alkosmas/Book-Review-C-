@@ -10,7 +10,7 @@ obj/
 
 
 #Secret
-src/BookReviews.API/appsettings.Development.json
+**/appsettings.Development.json
 .env
 
 # Logs

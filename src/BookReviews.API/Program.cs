@@ -3,13 +3,10 @@ using Microsoft.AspNetCore.Identity;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using BookReviews.Infrastructure.Persistence;
 using BookReviews.Infrastructure.Identity;
+using BookReviews.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-// Πρόσθεσε αυτό για debugging
-var connString = builder.Configuration.GetConnectionString("DefaultConnection");
-Console.WriteLine($"Connection String: {connString}");
 
 //Database
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -22,6 +19,8 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 
 //Controllers 
 builder.Services.AddControllers();
+
+builder.Services.AddApplication();
 
 //Swagger
 builder.Services.AddEndpointsApiExplorer();
