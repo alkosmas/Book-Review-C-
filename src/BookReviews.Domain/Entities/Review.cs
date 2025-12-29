@@ -5,7 +5,7 @@ using BookReviews.Domain.Interfaces;
 
 namespace BookReviews.Domain.Entities
 {
-    public class Review
+    public class Review : BaseEntity
     {
         public string Content{ get; set;} = string.Empty;
         public int Rating{ get; set; } 
