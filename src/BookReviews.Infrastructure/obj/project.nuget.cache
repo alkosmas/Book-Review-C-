@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FXPyp6DM5d4=",
+  "dgSpecHash": "MvdyUmoEra8=",
   "success": true,
   "projectFilePath": "/home/alex/Documents/MainSys/src/BookReviews.Infrastructure/BookReviews.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/alex/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/home/alex/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.0/fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
+    "/home/alex/.nuget/packages/mapster/7.4.0/mapster.7.4.0.nupkg.sha512",
+    "/home/alex/.nuget/packages/mapster.core/1.2.1/mapster.core.1.2.1.nupkg.sha512",
     "/home/alex/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/home/alex/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.aspnetcore.cryptography.internal/9.0.0/microsoft.aspnetcore.cryptography.internal.9.0.0.nupkg.sha512",

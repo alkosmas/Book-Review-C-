@@ -1,5 +1,10 @@
 using System;
 using Microsoft.Extensions.DependencyInjection;
+using MediatR;
+using System.Reflection;
+using FluentValidation;
+using BookReviews.Application.Common.Behaviors;
+
 
 namespace BookReviews.Application.Registration
 {
@@ -11,8 +16,11 @@ namespace BookReviews.Application.Registration
                 cfg.RegisterServicesFromAssembly(typeof(ApplicationServiceRegistration).Assembly);
             });
 
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
             return services;
         }
-
     }
 }

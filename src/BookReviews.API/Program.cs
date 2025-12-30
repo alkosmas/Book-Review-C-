@@ -5,11 +5,7 @@ using BookReviews.Infrastructure.Persistence;
 using BookReviews.Infrastructure.Identity;
 using BookReviews.Application.Registration;
 using BookReviews.Infrastructure.Registration;
-
 var builder = WebApplication.CreateBuilder(args);
-
-
-
 
 //Controllers 
 builder.Services.AddControllers();

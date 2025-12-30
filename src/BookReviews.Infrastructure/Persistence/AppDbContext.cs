@@ -2,10 +2,11 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using BookReviews.Domain.Entities;
 using BookReviews.Infrastructure.Identity;
+using BookReviews.Application.Common.Interfaces;
 
 namespace BookReviews.Infrastructure.Persistence 
 {
-    public class AppDbContext : IdentityDbContext<ApplicationUser>
+    public class AppDbContext : IdentityDbContext<ApplicationUser> ,IApplicationDbContext
     {    
 
         public AppDbContext(DbContextOptions<AppDbContext> options) :base(options)

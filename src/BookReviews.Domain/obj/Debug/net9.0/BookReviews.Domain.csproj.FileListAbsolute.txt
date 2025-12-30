@@ -1,11 +1,11 @@
+/home/alex/Documents/MainSys/src/BookReviews.Domain/bin/Debug/net9.0/BookReviews.Domain.deps.json
+/home/alex/Documents/MainSys/src/BookReviews.Domain/bin/Debug/net9.0/BookReviews.Domain.dll
+/home/alex/Documents/MainSys/src/BookReviews.Domain/bin/Debug/net9.0/BookReviews.Domain.pdb
 /home/alex/Documents/MainSys/src/BookReviews.Domain/obj/Debug/net9.0/BookReviews.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /home/alex/Documents/MainSys/src/BookReviews.Domain/obj/Debug/net9.0/BookReviews.Domain.AssemblyInfoInputs.cache
 /home/alex/Documents/MainSys/src/BookReviews.Domain/obj/Debug/net9.0/BookReviews.Domain.AssemblyInfo.cs
 /home/alex/Documents/MainSys/src/BookReviews.Domain/obj/Debug/net9.0/BookReviews.Domain.csproj.CoreCompileInputs.cache
 /home/alex/Documents/MainSys/src/BookReviews.Domain/obj/Debug/net9.0/BookReviews.Domain.sourcelink.json
-/home/alex/Documents/MainSys/src/BookReviews.Domain/bin/Debug/net9.0/BookReviews.Domain.deps.json
-/home/alex/Documents/MainSys/src/BookReviews.Domain/bin/Debug/net9.0/BookReviews.Domain.dll
-/home/alex/Documents/MainSys/src/BookReviews.Domain/bin/Debug/net9.0/BookReviews.Domain.pdb
 /home/alex/Documents/MainSys/src/BookReviews.Domain/obj/Debug/net9.0/BookReviews.Domain.dll
 /home/alex/Documents/MainSys/src/BookReviews.Domain/obj/Debug/net9.0/refint/BookReviews.Domain.dll
 /home/alex/Documents/MainSys/src/BookReviews.Domain/obj/Debug/net9.0/BookReviews.Domain.pdb
