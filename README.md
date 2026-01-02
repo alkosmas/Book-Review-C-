@@ -71,7 +71,6 @@ Before you begin, ensure you have installed:
 
 ### Step 1: Start PostgreSQL Container
 
-You're already using this command (perfect!):
 
 ```bash
 docker run --name bookreviews-db \
