@@ -1,0 +1,63 @@
+@model BookDetailsViewModel
+@{ ViewData["Title"] = Model.Book.Title; }
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h1 class="card-title">@Model.Book.Title</h1>
+        <p class="text-muted">By @Model.Book.Author | @Model.Book.Genre | @Model.Book.PublishedYear</p>
+    </div>
+</div>
+
+<h3>Reviews</h3>
+<hr />
+
+@foreach (var review in Model.Reviews)
+{
+    <div class="card mb-2">
+        <div class="card-body">
+            <p>@review.Content</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">By @review.UserName on @review.CreatedAt.ToShortDateString() | Rating: @review.Rating/5</small>
+                
+                <div>
+                    <form asp-action="Vote" method="post" style="display:inline;">
+                        <input type="hidden" name="reviewId" value="@review.Id" />
+                        <input type="hidden" name="bookId" value="@Model.Book.Id" />
+                        <input type="hidden" name="isUpvote" value="true" />
+                        <button type="submit" class="btn btn-sm btn-outline-success">👍 @review.Likes</button>
+                    </form>
+
+                    <form asp-action="Vote" method="post" style="display:inline;">
+                        <input type="hidden" name="reviewId" value="@review.Id" />
+                        <input type="hidden" name="bookId" value="@Model.Book.Id" />
+                        <input type="hidden" name="isUpvote" value="false" />
+                        <button type="submit" class="btn btn-sm btn-outline-danger">👎 @review.Dislikes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@if (User.Identity?.IsAuthenticated == true)
+{
+    <div class="mt-4 p-4 border rounded bg-light">
+        <h4>Add a Review</h4>
+        <form asp-action="AddReview" method="post">
+            <input type="hidden" name="BookId" value="@Model.Book.Id" />
+            <div class="mb-3">
+                <label name="Content" class="form-label">Your Review</label>
+                <textarea name="Content" class="form-control" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label name="Rating" class="form-label">Rating (1-5)</label>
+                <input type="number" name="Rating" class="form-control" min="1" max="5" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Review</button>
+        </form>
+    </div>
+}
+else
+{
+    <p class="mt-4"><a href="/account/login">Login</a> to leave a review.</p>
+}

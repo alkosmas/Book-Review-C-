@@ -148,3 +148,8 @@
 /home/alex/Documents/MainSys/src/BookReviews.API/obj/Debug/net9.0/ref/BookReviews.API.dll
 /home/alex/Documents/MainSys/src/BookReviews.API/bin/Debug/net9.0/Mapster.dll
 /home/alex/Documents/MainSys/src/BookReviews.API/bin/Debug/net9.0/Mapster.Core.dll
+/home/alex/Documents/MainSys/src/BookReviews.API/obj/Debug/net9.0/BookReviews.API.RazorAssemblyInfo.cache
+/home/alex/Documents/MainSys/src/BookReviews.API/obj/Debug/net9.0/BookReviews.API.RazorAssemblyInfo.cs
+/home/alex/Documents/MainSys/src/BookReviews.API/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/alex/Documents/MainSys/src/BookReviews.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/home/alex/Documents/MainSys/src/BookReviews.API/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

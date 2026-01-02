@@ -27,3 +27,27 @@ build_property.MSBuildProjectDirectory = /home/alex/Documents/MainSys/src/BookRe
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
+
+[/home/alex/Documents/MainSys/src/BookReviews.API/Views/BooksMvc/AccountMvc/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3NNdmMvQWNjb3VudE12Yy9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alex/Documents/MainSys/src/BookReviews.API/Views/BooksMvc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3NNdmMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alex/Documents/MainSys/src/BookReviews.API/Views/BooksMvc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3NNdmMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alex/Documents/MainSys/src/BookReviews.API/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alex/Documents/MainSys/src/BookReviews.API/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alex/Documents/MainSys/src/BookReviews.API/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

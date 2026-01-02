@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pqyBiNm+vX8=",
+  "dgSpecHash": "tEZArchoxJk=",
   "success": true,
   "projectFilePath": "/home/alex/Documents/MainSys/src/BookReviews.API/BookReviews.API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "/home/alex/.nuget/packages/mapster.core/1.2.1/mapster.core.1.2.1.nupkg.sha512",
     "/home/alex/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/home/alex/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/alex/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.0/microsoft.aspnetcore.authentication.jwtbearer.9.0.0.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.aspnetcore.cryptography.internal/9.0.0/microsoft.aspnetcore.cryptography.internal.9.0.0.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/9.0.0/microsoft.aspnetcore.cryptography.keyderivation.9.0.0.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/9.0.0/microsoft.aspnetcore.identity.entityframeworkcore.9.0.0.nupkg.sha512",
@@ -48,6 +49,8 @@
     "/home/alex/.nuget/packages/microsoft.identitymodel.abstractions/8.15.0/microsoft.identitymodel.abstractions.8.15.0.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.15.0/microsoft.identitymodel.jsonwebtokens.8.15.0.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.identitymodel.logging/8.15.0/microsoft.identitymodel.logging.8.15.0.nupkg.sha512",
+    "/home/alex/.nuget/packages/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "/home/alex/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.identitymodel.tokens/8.15.0/microsoft.identitymodel.tokens.8.15.0.nupkg.sha512",
     "/home/alex/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
     "/home/alex/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
