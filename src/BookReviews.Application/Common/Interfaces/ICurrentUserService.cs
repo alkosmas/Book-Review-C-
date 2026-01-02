@@ -8,6 +8,6 @@ namespace BookReviews.Application.Common.Interfaces
     public interface ICurrentUserService
     {
         string? UserId { get; }
-        bool IsAdmin { get; };
+        bool IsAdmin { get; }
     }
 }

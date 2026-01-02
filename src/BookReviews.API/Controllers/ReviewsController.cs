@@ -3,6 +3,14 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using BookReviews.Application.Features.Reviews.Queries.GetReviewsByBookId;
 using BookReviews.Application.Features.Reviews.Commands.CreateReview;
+using BookReviews.Application.Features.Reviews.Commands.DeleteReview;
+using BookReviews.Application.Features.Reviews.Commands.DeleteVote;
+using BookReviews.Application.Features.Reviews.Commands.VoteReview;
+
+
+
+
+
 
 
 [Route("api/books/{bookId}/reviews")]
@@ -34,9 +42,9 @@ public class ReviewsController : ControllerBase
 
     [Authorize]
     [HttpPut("{reviewId}/vote")]
-    public async Task<IActionResult> Vote(int reviewId, [FromBody] bool isUpvote)
+    public async Task<IActionResult> Vote(int reviewId, [FromBody] bool isUpVote)
     {
-        await _mediator.Send(new VoteReviewCommand { ReviewId = reviewId, IsUpvote = isUpvote });
+        await _mediator.Send(new VoteReviewCommand { ReviewId = reviewId, IsUpVote = isUpVote });
         return NoContent();
     }
 

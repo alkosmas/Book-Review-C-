@@ -1,7 +1,7 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using BookReviews.Application.Interfaces;
-using BookReviews.Application.Exceptions;
+using BookReviews.Application.Common.Interfaces;
+using BookReviews.Application.Common.Exceptions;
 
 namespace BookReviews.Application.Features.Reviews.Commands.DeleteVote
 {
