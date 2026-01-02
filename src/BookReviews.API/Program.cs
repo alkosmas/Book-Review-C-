@@ -5,6 +5,8 @@ using BookReviews.Infrastructure.Persistence;
 using BookReviews.Infrastructure.Identity;
 using BookReviews.Application.Registration;
 using BookReviews.Infrastructure.Registration;
+using BookReviews.Application.Common.Interfaces;
+using BookReviews.API.Services;           
 var builder = WebApplication.CreateBuilder(args);
 
 //Controllers 
@@ -15,6 +17,7 @@ builder.Services.AddInfrastructure(builder.Configuration);
 //Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 
 var app = builder.Build();
 
