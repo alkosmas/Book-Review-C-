@@ -31,4 +31,20 @@ public class ReviewsController : ControllerBase
         var id = await _mediator.Send(command);
         return Ok(id);
     }
+
+    [Authorize]
+    [HttpPut("{reviewId}/vote")]
+    public async Task<IActionResult> Vote(int reviewId, [FromBody] bool isUpvote)
+    {
+        await _mediator.Send(new VoteReviewCommand { ReviewId = reviewId, IsUpvote = isUpvote });
+        return NoContent();
+    }
+
+    [Authorize]
+    [HttpDelete("{reviewId}/vote")]
+    public async Task<IActionResult> DeleteVote(int reviewId)
+    {
+        await _mediator.Send(new DeleteVoteCommand(reviewId));
+        return NoContent();
+}
 }
